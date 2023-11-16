@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class GrpcClient {
 
     public static void main(String[] args) {
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 9090).usePlaintext().build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("192.168.56.1", 9090).usePlaintext().build();
         userBlockingStub userStub = userGrpc.newBlockingStub(channel);
 
         Scanner scanner = new Scanner(System.in);

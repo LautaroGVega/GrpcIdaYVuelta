@@ -25,7 +25,13 @@
 			<artifactId>grpc-stub</artifactId>
 			<version>1.15.1</version>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>javax</groupId>
+     <artifactId>javaee-api</artifactId>
+     <version>8.0.1</version>
+   </dependency>
+ </dependencies>
 
 		<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

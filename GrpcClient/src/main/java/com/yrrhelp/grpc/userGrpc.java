@@ -15,9 +15,11 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
+import javax.annotation.Generated;
+
 /**
  */
-@javax.annotation.Generated(
+@Generated(
     value = "by gRPC proto compiler (version 1.15.0)",
     comments = "Source: user.proto")
 public final class userGrpc {
